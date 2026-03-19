@@ -1,6 +1,7 @@
-def hours_to_minutes(hours): #Функція переводить години в хвилини
-return hours * 60
-print(hours_to_minutes(2)) #Виведення результату на екран
+def hours_to_minutes(hours):
+    return int(hours * 60)
+
+print(hours_to_minutes(2))
 print(hours_to_minutes(5.5))
 print(hours_to_minutes(0.25))
 
